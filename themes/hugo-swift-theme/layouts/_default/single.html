@@ -19,6 +19,7 @@
 <div class = '{{ if .Params.full }}wrap post{{ else }}post{{ end }}'>
   <article class='post_content'>
     {{- .Content }}
+     <!-- comment out below to hide the "copy" function" -->
     <!-- {{ if in $p.mainSections .Type }}
     <div class = 'post_extra'>
       {{- partialCached "copy" . }}
