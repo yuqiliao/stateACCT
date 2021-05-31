@@ -1,9 +1,9 @@
 baseurl = "https://example.com/"  # Include trailing slash
-title = "Hugo Themes"
+title = "ACCT"
 theme = "hugo-swift-theme"
 # theme = "swift"
-author = "Steve Francia"
-copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
+# author = "Steve Francia"
+# copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
 canonifyurls = true
 paginate = 3
 # Enable syntax highlighting
@@ -41,20 +41,20 @@ pygmentsCodefencesGuessSyntax = true
 #     siteKey = ""  # Use your own site key, you need to apply for one on Google
 #     secret  = ""  # ENCRYPT your password by going to https://<staticman-endpoint>/v3/encrypt/<your-site-secret>
 
-[menu]
-  [[menu.main]]
-    name = "About"
-    url = "about/"
-    weight = 2
-  [[menu.main]]
-    name = "Development"
-    url = "categories/development/"
-    weight = 3
-  [[menu.main]]
-    name = "Golang"
-    url = "categories/golang/"
-    weight = 4
-  [[menu.main]]
-    name = "Go"
-    url = "tags/go/"
-    weight = 5
+# [menu]
+#   [[menu.main]]
+#     name = "About"
+#     url = "about/"
+#     weight = 2
+#   [[menu.main]]
+#     name = "Development"
+#     url = "categories/development/"
+#     weight = 3
+#   [[menu.main]]
+#     name = "Golang"
+#     url = "categories/golang/"
+#     weight = 4
+#   [[menu.main]]
+#     name = "Go"
+#     url = "tags/go/"
+#     weight = 5
